@@ -8,13 +8,29 @@ logoutBtn.addEventListener('click', function() {
 });
 
 // Espera até que o documento esteja totalmente carregado
-document.addEventListener("DOMContentLoaded", function() {
-  // Obtém a div "Cadastro e Gerenciamento de Dados" pelo ID
-  var cadastroDiv = document.getElementById("cadastroDiv");
+document.addEventListener('DOMContentLoaded', function() {
+  // Obtém todos os elementos com a classe "rectangle"
+  var rectangles = document.querySelectorAll('.rectangle');
 
-  // Adiciona um ouvinte de evento de clique à div
-  cadastroDiv.addEventListener("click", function() {
-    // Redireciona para o arquivo index.html na pasta CadastroeGerenciamentodeDados
-    window.location.href = "CadastroeGerenciamentodeDados/index.html";
+  // Itera sobre cada elemento
+  rectangles.forEach(function(rectangle) {
+    // Adiciona um ouvinte de evento de clique a cada retângulo
+    rectangle.addEventListener('click', function() {
+      // Redireciona para a página desejada com base no ID do retângulo clicado
+      var id = rectangle.getAttribute('id');
+      window.location.href = id + '/index.html';
+    });
+
+    // Adiciona um ouvinte de evento de mouseover a cada retângulo
+    rectangle.addEventListener('mouseover', function() {
+      // Altera o cursor para "pointer" quando o mouse estiver sobre o retângulo
+      rectangle.style.cursor = 'pointer';
+    });
+
+    // Adiciona um ouvinte de evento de mouseout a cada retângulo
+    rectangle.addEventListener('mouseout', function() {
+      // Remove a alteração do cursor quando o mouse sair do retângulo
+      rectangle.style.cursor = 'default';
+    });
   });
 });

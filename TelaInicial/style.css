@@ -1,130 +1,120 @@
+/* O código CSS permanece o mesmo */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
 body {
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
-    background-color: whitesmoke; /* Cor de fundo mais escura para o header */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
-
 
 .logo {
-    font-family: 'Cookie', cursive;
-    font-size: 60px; /* Tamanho aumentado */
-    font-weight: 700;
-    background-image: linear-gradient(45deg, #ff003c, #d8df07);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: auto; /* Centraliza horizontalmente */
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  background-image: linear-gradient(45deg, #ff003c, #d8df07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
 }
 
-
 .logout-btn {
-    font-weight: bold;
-    background-color: #d22e2e; /* Vermelho escuro */
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 20px;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transições */
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Efeito sombra */
+  font-weight: bold;
+  background-color: #d22e2e;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 .logout-btn:hover,
 .logout-btn:focus {
-    background-color: #FF0000; /* Vermelho padrão */
-    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3); /* Efeito sombra aumentado */
+  background-color: #ff0000;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Centralizar as colunas */
-    margin-top: 20px; /* Espaçamento entre o cabeçalho e as divs */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .rectangle {
-    width: 575px; /* Largura fixa para as divs */
-    height: 130px; /* Altura fixa para as divs */
+    width: 575px;
+    height: 130px;
     display: flex;
     align-items: center;
     background-color: #F8F8FF;
+    color: black; /* Altera a cor da fonte para preto */
     padding: 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    font-family: 'Ubuntu', sans-serif; /* Aplicando a fonte Ubuntu */
-    margin-right: 10px; /* Espaçamento entre as colunas */
-    margin-bottom: 10px; /* Espaçamento entre as linhas */
-}
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
 
 .rectangle:nth-child(2n) {
-    margin-right: 0; /* Remover espaçamento à direita das colunas pares */
+  margin-right: 0;
 }
 
 .rectangle:hover,
 .rectangle:focus {
-    background-color: #E6E6FA;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: #e6e6fa;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .rectangle:hover .emoji,
 .rectangle:focus .emoji {
-    color: red; /* Altera a cor do emoji durante o hover e o focus */
+  color: red;
 }
 
 .emoji {
-    font-size: 40px;
-    margin-right: 10px; /* Espaçamento entre o emoji e o conteúdo */
+  font-size: 40px;
+  margin-right: 10px;
 }
 
 .title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .explanation {
-    font-size: 14px;
-    text-align: left; /* Alinhamento à esquerda */
+  font-size: 14px;
+  text-align: left;
 }
 
-.back-btn {
-    font-weight: bold;
-    background-color: #2E8B57; /* Cor verde mais escura */
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transições para background-color e color */
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Efeito sombra */
-    margin-left: 20px;
+.titulodapag {
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
 }
 
-.back-btn:hover,
-.back-btn:focus {
-    background-color: #3CB371; /* Cor verde mais clara ao passar o mouse */
-    color: white;
-    box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.3); /* Efeito sombra aumentado */
-}
 
-.titulodapag{
-    font-weight: bold;
-    font-family: Roboto;
-    text-align: center;    
-}
+a {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
