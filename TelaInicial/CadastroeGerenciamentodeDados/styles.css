@@ -71,9 +71,6 @@ body {
 }
 
 
-
-
-
 .rectangle:hover,
 .rectangle:focus {
   background-color: #E6E6FA;
@@ -132,3 +129,40 @@ body {
   box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.3); /* Efeito sombra aumentado */
 }
 
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.option {
+  width: 120px;
+  height: 40px;
+  background-color: #F8F8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.option:hover {
+  background-color: #E6E6FA;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.option.cadastrar {
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.option.consultar {
+  margin-left: 10px;
+  background-color: #2196F3;
+  color: #fff;
+}
