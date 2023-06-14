@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  background-image: linear-gradient(45deg, #ff003c, #d8df07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+}
+
+.logout-btn,
+.back-btn {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn {
+  background-color: #d22e2e;
+  color: white;
+  margin-right: 20px;
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+  background-color: #FF0000;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
+}
+
+.back-btn {
+  background-color: #2E8B57;
+  color: white;
+  margin-left: 20px;
+}
+
+.back-btn:hover,
+.back-btn:focus {
+  background-color: #3CB371;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.3);
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.container {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #F8F8FF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 97.5%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-generate {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-generate:hover,
+.btn-generate:focus {
+  background-color: #0056b3;
+  box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.3);
+}

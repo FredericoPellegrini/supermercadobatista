@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Recolhimento (GR's) - Supermercado ERP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <button class="back-btn">Voltar</button>
+    <h1 class="logo">Supermercado Batista</h1>
+    <button class="logout-btn">Sair</button>
+  </header>
+
+  <h1 class="page-title">Guia de Recolhimento (GR's)</h1>
+
+  <div class="container">
+    <form class="form">
+      <div class="form-group">
+        <label for="gr-number">Número da GR:</label>
+        <input type="text" id="gr-number" name="gr-number" placeholder="Digite o número da GR" required>
+      </div>
+
+      <div class="form-group">
+        <label for="customer-name">Nome do Cliente:</label>
+        <input type="text" id="customer-name" name="customer-name" placeholder="Digite o nome do cliente" required>
+      </div>
+
+      <div class="form-group">
+        <label for="amount">Valor a Recolher:</label>
+        <input type="number" id="amount" name="amount" placeholder="Digite o valor a recolher" required>
+      </div>
+
+      <div class="form-group">
+        <label for="due-date">Data de Vencimento:</label>
+        <input type="date" id="due-date" name="due-date" required>
+      </div>
+
+      <button type="submit" class="btn-generate">Gerar GR</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
