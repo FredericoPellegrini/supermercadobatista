@@ -149,14 +149,13 @@ body {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
   
-  .option.produtocadastrar,
-  .option.produtoconsultar {
+  .option.movimentacoesfinanceirascadastrar{
     margin-right: 10px;
     background-color: #4CAF50;
     color: #fff;
   }
   
-  .option.produtoconsultar {
+  .option.movimentacoesfinanceirasconsultar {
     margin-left: 10px;
     background-color: #2196F3;
     color: #fff;

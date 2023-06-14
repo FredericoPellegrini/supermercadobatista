@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <button class="back-btn">Voltar</button>
+    <h1 class="logo">Supermercado Batista</h1>
+    <button class="logout-btn">Sair</button>
+  </header>
+
+  <div class="container">
+    <h1>Fechamento de Caixa</h1>
+
+    <h2>Vendas do Dia</h2>
+    <table id="vendas-table">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Valor Unitário</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Aqui você pode preencher dinamicamente as vendas do dia com JavaScript -->
+        <tr>
+          <td>Arroz</td>
+          <td>3</td>
+          <td>R$ 5,00</td>
+          <td>R$ 15,00</td>
+        </tr>
+        <tr>
+          <td>Feijão</td>
+          <td>2</td>
+          <td>R$ 3,50</td>
+          <td>R$ 7,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="total-vendas">
+      <h3>Total de Vendas: R$ <span id="total-vendas-valor">22,00</span></h3>
+    </div>
+
+    <h2>Movimentações Financeiras do Dia</h2>
+    <table id="movimentacoes-table">
+      <thead>
+        <tr>
+          <th>Descrição</th>
+          <th>Tipo</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Aqui você pode preencher dinamicamente as movimentações financeiras do dia com JavaScript -->
+        <tr>
+          <td>Venda de Produtos</td>
+          <td>Receita</td>
+          <td>R$ 22,00</td>
+        </tr>
+        <tr>
+          <td>Pagamento de Fornecedor</td>
+          <td>Despesa</td>
+          <td>R$ 10,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="saldo-final">
+      <h3>Saldo Final: R$ <span id="saldo-final-valor">12,00</span></h3>
+    </div>
+
+    <button id="fechar-caixa-btn">Fechar Caixa</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
