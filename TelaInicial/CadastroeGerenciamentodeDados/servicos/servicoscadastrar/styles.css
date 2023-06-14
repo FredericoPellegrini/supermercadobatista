@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 
+/* Estilos gerais */
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
 .header {
   background-color: whitesmoke;
   display: flex;
@@ -62,8 +70,83 @@
   box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.3); /* Efeito sombra aumentado */
 }
 
-body {
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
+/* Conteúdo */
+.content-container {
+  /* Estilos do container de conteúdo */
+}
+
+.container {
+  background-color: #F8F8FF;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: ubuntu;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: none; /* Esconder os labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button[type="submit"] {
+  text-align: center;
+  font-weight: bold;
+  background-color: #2E8B57;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #3CB371;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.3);
 }

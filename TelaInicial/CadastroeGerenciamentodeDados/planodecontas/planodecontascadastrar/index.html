@@ -13,7 +13,36 @@
     <h1 class="logo">Supermercado Batista</h1>
     <button class="logout-btn">Sair</button>
   </header>
+
+  <div class="content-container">
   
+  <div class="container">
+
+    <h1>Cadastrar Plano de contas</h1>
+
+    <form id="plano-contas-form">
+      <input type="text" id="codigo-conta" name="codigo-conta" placeholder="Código da Conta" required>
+    
+      <input type="text" id="nome-conta" name="nome-conta" placeholder="Nome da Conta" required>
+    
+      <select id="tipo-conta" name="tipo-conta">
+        <option value="ativo">Ativo</option>
+        <option value="passivo">Passivo</option>
+        <option value="receita">Receita</option>
+        <option value="despesa">Despesa</option>
+      </select>
+    
+      <input type="text" id="descricao-conta" name="descricao-conta" placeholder="Descrição">
+    
+      <div class="button-container">
+        <button type="submit">Cadastrar</button>
+      </div>
+
+    </form>    
+  </div>
+  </div>
+
+
 <script src="script.js"></script>
 </body>
 </html>
