@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-family: 'Cookie', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  background-image: linear-gradient(45deg, #ff003c, #d8df07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+}
+
+.logout-btn {
+  font-weight: bold;
+  background-color: #d22e2e;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+  background-color: #FF0000;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.3);
+}
+
+.back-btn {
+  font-weight: bold;
+  background-color: #2E8B57; /* Cor verde mais escura */
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transições para background-color e color */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Efeito sombra */
+  margin-left: 20px;
+}
+
+.back-btn:hover,
+.back-btn:focus {
+  background-color: #3CB371; /* Cor verde mais clara ao passar o mouse */
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 128, 0, 0.3); /* Efeito sombra aumentado */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  height: 75px; /* Defina a altura desejada */
+}
+
+
+form textarea {
+  resize: vertical;
+}
+
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold; /* Adiciona negrito */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  }
+  
+form button:hover,
+form button:focus {
+    background-color: #3CB371; /* Cor verde mais clara ao passar o mouse ou focar */
+  }
+
+
+/* Estilos específicos para o formulário de cadastro de produtos */
+.content {
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ffffff; /* Definindo a cor de fundo para branco */
+}
+
+.form-container {
+  background-color: #F8F8FF;
+  margin: 0 auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+
+::placeholder {
+  font-size: 18px; 
+}
+
+select option {
+  font-size: 18px; 
+}

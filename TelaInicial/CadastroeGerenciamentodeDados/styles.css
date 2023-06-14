@@ -155,12 +155,14 @@ body {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
+.option.produtocadastrar,
 .option.cadastrar {
   margin-right: 10px;
   background-color: #4CAF50;
   color: #fff;
 }
 
+.option.produtoconsultar,
 .option.consultar {
   margin-left: 10px;
   background-color: #2196F3;
