@@ -24,3 +24,20 @@ cadastrarLinks.forEach(function(link) {
     window.location.href = 'produtos/produtosConsultar/index.html';
   });
 });
+
+//Links de cadastro de clientes
+var cadastrarLinks = document.querySelectorAll('.clientescadastrar');
+cadastrarLinks.forEach(function(link) {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'clientes/clientescadastrar/index.html';
+  });
+});
+
+var cadastrarLinks = document.querySelectorAll('.clientesconsultar');
+cadastrarLinks.forEach(function(link) {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'clientes/clientesconsultar/index.html';
+  });
+});

@@ -156,6 +156,7 @@ body {
 }
 
 .option.produtocadastrar,
+.option.clientescadastrar,
 .option.cadastrar {
   margin-right: 10px;
   background-color: #4CAF50;
@@ -163,6 +164,7 @@ body {
 }
 
 .option.produtoconsultar,
+.option.clientesconsultar,
 .option.consultar {
   margin-left: 10px;
   background-color: #2196F3;
