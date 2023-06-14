@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <button class="back-btn">Voltar</button>
+        <h1 class="logo">Supermercado Batista</h1>
+        <button class="logout-btn">Sair</button>
+    </header>
+
+    <div class="container">
+        <h2 class="title">Ponto de Venda</h2>
+
+        <div class="product-list">
+            <!-- Lista de produtos -->
+            <div class="product">
+                <span class="product-name">Produto 1</span>
+                <span class="product-price">$10.99</span>
+                <button class="add-to-cart-btn">Adicionar</button>
+            </div>
+
+            <div class="product">
+                <span class="product-name">Produto 2</span>
+                <span class="product-price">$15.99</span>
+                <button class="add-to-cart-btn">Adicionar</button>
+            </div>
+
+            <!-- Outros produtos -->
+        </div>
+
+        <div class="cart">
+            <h3 class="cart-title">Carrinho de Compras</h3>
+
+            <div class="cart-items">
+                <!-- Itens do carrinho -->
+                <div class="cart-item">
+                    <span class="item-name">Produto 1</span>
+                    <span class="item-quantity">1</span>
+                    <span class="item-price">$10.99</span>
+                    <button class="remove-item-btn">Remover</button>
+                </div>
+
+                <div class="cart-item">
+                    <span class="item-name">Produto 2</span>
+                    <span class="item-quantity">2</span>
+                    <span class="item-price">$31.98</span>
+                    <button class="remove-item-btn">Remover</button>
+                </div>
+
+                <!-- Outros itens -->
+            </div>
+
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">$42.97</span>
+            </div>
+
+            <button class="checkout-btn">Finalizar Compra</button>
+        </div>    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
