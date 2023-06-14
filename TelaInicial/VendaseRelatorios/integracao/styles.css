@@ -37,7 +37,7 @@ body {
 
 .container select,
 .container input[type="text"] {
-    width: 100%;
+    width: 97.5%;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;

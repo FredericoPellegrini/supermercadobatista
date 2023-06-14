@@ -9,5 +9,5 @@ backButton.addEventListener('click', function(event) {
 var logoutButton = document.querySelector('.logout-btn');
 logoutButton.addEventListener('click', function(event) {
   event.preventDefault();
-  window.location.href = '../../index.html';
+  window.location.href = '../../../index.html';
 });
