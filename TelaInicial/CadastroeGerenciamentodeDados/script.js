@@ -41,3 +41,20 @@ cadastrarLinks.forEach(function(link) {
     window.location.href = 'clientes/clientesconsultar/index.html';
   });
 });
+
+//Links de cadastro de clientes
+var cadastrarLinks = document.querySelectorAll('.operacoesfiscaiscadastrar');
+cadastrarLinks.forEach(function(link) {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'operacoesfiscais/operacoesfiscaiscadastro/index.html';
+  });
+});
+
+var cadastrarLinks = document.querySelectorAll('.operacoesfiscaisconsultar');
+cadastrarLinks.forEach(function(link) {
+  link.addEventListener('click', function(event) {
+    event.preventDefault();
+    window.location.href = 'operacoesfiscais/operacoesfiscaisconsulta/index.html';
+  });
+});

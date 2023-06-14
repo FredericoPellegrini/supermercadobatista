@@ -157,6 +157,7 @@ body {
 
 .option.produtocadastrar,
 .option.clientescadastrar,
+.option.operacoesfiscaiscadastrar,
 .option.cadastrar {
   margin-right: 10px;
   background-color: #4CAF50;
@@ -165,6 +166,7 @@ body {
 
 .option.produtoconsultar,
 .option.clientesconsultar,
+.option.operacoesfiscaisconsultar,
 .option.consultar {
   margin-left: 10px;
   background-color: #2196F3;

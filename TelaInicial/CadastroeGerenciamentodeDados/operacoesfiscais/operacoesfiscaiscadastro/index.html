@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <button class="back-btn">Voltar</button>
+    <h1 class="logo">Supermercado Batista</h1>
+    <button class="logout-btn">Sair</button>
+  </header>
+
+  <div class="container">
+    <h1>Cadastrar Operação Fiscal</h1>
+    <form>
+      <input type="text" placeholder="Nome" required>
+      <input type="email" placeholder="Código" required>
+      <input type="tel" placeholder="Valor" required>
+      <select name="Tipo" required>
+        <option value="" disabled selected>Tipo</option>
+        <option value="Entradas">Entradas</option>
+        <option value="Saídas">Saídas</option>
+        <option value="Impostos">Impostos</option>
+        <option value="Encargos">Encargos</option>
+      </select>
+      
+        <div class="button-container">
+          <button type="submit">Cadastrar</button>
+        </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
