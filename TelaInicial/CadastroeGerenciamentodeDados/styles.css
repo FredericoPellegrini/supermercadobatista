@@ -158,7 +158,13 @@ body {
 .option.produtocadastrar,
 .option.clientescadastrar,
 .option.operacoesfiscaiscadastrar,
-.option.cadastrar {
+.option.empresascadastrar,
+.option.fornecedorescadastrar,
+.option.planodecontascadastrar,
+.option.servicoscadastrar,
+.option.funcionarioscadastrar,
+.option.transportadorascadastrar,
+.option.cadastrarcadastrar {
   margin-right: 10px;
   background-color: #4CAF50;
   color: #fff;
@@ -167,7 +173,13 @@ body {
 .option.produtoconsultar,
 .option.clientesconsultar,
 .option.operacoesfiscaisconsultar,
-.option.consultar {
+.option.empresasconsultar,
+.option.fornecedoresconsultar,
+.option.planodecontasconsultar,
+.option.servicosconsultar,
+.option.funcionariosconsultar,
+.option.transportadorasconsultar,
+.option.consultarconsultar {
   margin-left: 10px;
   background-color: #2196F3;
   color: #fff;
